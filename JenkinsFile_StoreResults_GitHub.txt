@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'jmetertesting/jmetertest:v1.0'
+        IMAGE_NAME = 'jmetertesting'
         TEST_REPO = 'https://github.com/bhargavivijaya2021-cmd/Newloadtest_50.git'
     }
 
